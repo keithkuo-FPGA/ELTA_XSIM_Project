@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="ip_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="\$unit_tb_axi_spi_sv " />
+            <top_module name="axi_vip_pkg" />
+            <top_module name="glbl" />
+            <top_module name="ip_tb" />
+            <top_module name="spi_tb_axi_vip_0_0_pkg" />
+            <top_module name="std" />
+            <top_module name="xil_common_vip_pkg" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="234.395000 us"></ZoomStartTime>
+      <ZoomEndTime time="350.495001 us"></ZoomEndTime>
+      <Cursor1Time time="289.595000 us"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="175"></NameColumnWidth>
+      <ValueColumnWidth column_width="265"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="50" />
+   <wvobject fp_name="/ip_tb/clk300" type="logic">
+      <obj_property name="ElementShortName">clk300</obj_property>
+      <obj_property name="ObjectShortName">clk300</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ip_tb/clk100" type="logic">
+      <obj_property name="ElementShortName">clk100</obj_property>
+      <obj_property name="ObjectShortName">clk100</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ip_tb/rst_n" type="logic">
+      <obj_property name="ElementShortName">rst_n</obj_property>
+      <obj_property name="ObjectShortName">rst_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ip_tb/sclk" type="logic">
+      <obj_property name="ElementShortName">sclk</obj_property>
+      <obj_property name="ObjectShortName">sclk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ip_tb/cs_n" type="logic">
+      <obj_property name="ElementShortName">cs_n</obj_property>
+      <obj_property name="ObjectShortName">cs_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ip_tb/mosi" type="logic">
+      <obj_property name="ElementShortName">mosi</obj_property>
+      <obj_property name="ObjectShortName">mosi</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ip_tb/miso" type="logic">
+      <obj_property name="ElementShortName">miso</obj_property>
+      <obj_property name="ObjectShortName">miso</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ip_tb/sdi" type="logic">
+      <obj_property name="ElementShortName">sdi</obj_property>
+      <obj_property name="ObjectShortName">sdi</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ip_tb/pdi" type="logic">
+      <obj_property name="ElementShortName">pdi</obj_property>
+      <obj_property name="ObjectShortName">pdi</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ip_tb/sdo" type="logic">
+      <obj_property name="ElementShortName">sdo</obj_property>
+      <obj_property name="ObjectShortName">sdo</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ip_tb/done" type="logic">
+      <obj_property name="ElementShortName">done</obj_property>
+      <obj_property name="ObjectShortName">done</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ip_tb/d0_wdao_0" type="array">
+      <obj_property name="ElementShortName">d0_wdao_0[63:0]</obj_property>
+      <obj_property name="ObjectShortName">d0_wdao_0[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ip_tb/d0_wvld_0" type="logic">
+      <obj_property name="ElementShortName">d0_wvld_0</obj_property>
+      <obj_property name="ObjectShortName">d0_wvld_0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ip_tb/d0_wdao_1" type="array">
+      <obj_property name="ElementShortName">d0_wdao_1[63:0]</obj_property>
+      <obj_property name="ObjectShortName">d0_wdao_1[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ip_tb/d0_wvld_1" type="logic">
+      <obj_property name="ElementShortName">d0_wvld_1</obj_property>
+      <obj_property name="ObjectShortName">d0_wvld_1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ip_tb/d0_wdao_2" type="array">
+      <obj_property name="ElementShortName">d0_wdao_2[63:0]</obj_property>
+      <obj_property name="ObjectShortName">d0_wdao_2[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ip_tb/d0_wvld_2" type="logic">
+      <obj_property name="ElementShortName">d0_wvld_2</obj_property>
+      <obj_property name="ObjectShortName">d0_wvld_2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ip_tb/d0_wdao_3" type="array">
+      <obj_property name="ElementShortName">d0_wdao_3[63:0]</obj_property>
+      <obj_property name="ObjectShortName">d0_wdao_3[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ip_tb/d0_wvld_3" type="logic">
+      <obj_property name="ElementShortName">d0_wvld_3</obj_property>
+      <obj_property name="ObjectShortName">d0_wvld_3</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ip_tb/U1/axi_spi_top_0/inst/fifo_full" type="array">
+      <obj_property name="ElementShortName">fifo_full[17:0]</obj_property>
+      <obj_property name="ObjectShortName">fifo_full[17:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ip_tb/U1/axi_spi_top_0/inst/fifo_full_any" type="logic">
+      <obj_property name="ElementShortName">fifo_full_any</obj_property>
+      <obj_property name="ObjectShortName">fifo_full_any</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ip_tb/U1/axi_spi_top_0/inst/awstd_ctrl/start" type="logic">
+      <obj_property name="ElementShortName">start</obj_property>
+      <obj_property name="ObjectShortName">start</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ip_tb/U1/axi_spi_top_0/inst/awstd_ctrl/cmd_valid" type="logic">
+      <obj_property name="ElementShortName">cmd_valid</obj_property>
+      <obj_property name="ObjectShortName">cmd_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ip_tb/U1/axi_spi_top_0/inst/awstd_ctrl/cmd_ready" type="logic">
+      <obj_property name="ElementShortName">cmd_ready</obj_property>
+      <obj_property name="ObjectShortName">cmd_ready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ip_tb/cmd_valid" type="logic">
+      <obj_property name="ElementShortName">cmd_valid</obj_property>
+      <obj_property name="ObjectShortName">cmd_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ip_tb/cmd_op" type="array">
+      <obj_property name="ElementShortName">cmd_op[2:0]</obj_property>
+      <obj_property name="ObjectShortName">cmd_op[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ip_tb/cmd_cpol" type="logic">
+      <obj_property name="ElementShortName">cmd_cpol</obj_property>
+      <obj_property name="ObjectShortName">cmd_cpol</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ip_tb/cmd_cpha" type="logic">
+      <obj_property name="ElementShortName">cmd_cpha</obj_property>
+      <obj_property name="ObjectShortName">cmd_cpha</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ip_tb/data_buffer" type="array">
+      <obj_property name="ElementShortName">data_buffer[31:0]</obj_property>
+      <obj_property name="ObjectShortName">data_buffer[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ip_tb/D0" type="array">
+      <obj_property name="ElementShortName">D0[47:0]</obj_property>
+      <obj_property name="ObjectShortName">D0[47:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ip_tb/D1" type="array">
+      <obj_property name="ElementShortName">D1[47:0]</obj_property>
+      <obj_property name="ObjectShortName">D1[47:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ip_tb/data24" type="array">
+      <obj_property name="ElementShortName">data24[23:0]</obj_property>
+      <obj_property name="ObjectShortName">data24[23:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ip_tb/fbs_frame" type="array">
+      <obj_property name="ElementShortName">fbs_frame[34:0]</obj_property>
+      <obj_property name="ObjectShortName">fbs_frame[34:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ip_tb/fbs_addr" type="array">
+      <obj_property name="ElementShortName">fbs_addr[9:0]</obj_property>
+      <obj_property name="ObjectShortName">fbs_addr[9:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ip_tb/std_payload" type="array">
+      <obj_property name="ElementShortName">std_payload[59:0]</obj_property>
+      <obj_property name="ObjectShortName">std_payload[59:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ip_tb/mst_agent_verbosity" type="array">
+      <obj_property name="ElementShortName">mst_agent_verbosity[31:0]</obj_property>
+      <obj_property name="ObjectShortName">mst_agent_verbosity[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ip_tb/U1/axi_spi_top_0/inst/axi_go_d" type="logic">
+      <obj_property name="ElementShortName">axi_go_d</obj_property>
+      <obj_property name="ObjectShortName">axi_go_d</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ip_tb/U1/axi_spi_top_0/inst/awstd_ctrl/cmd_valid" type="logic">
+      <obj_property name="ElementShortName">cmd_valid</obj_property>
+      <obj_property name="ObjectShortName">cmd_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ip_tb/U1/axi_spi_top_0/inst/awstd_ctrl/cmd_ready" type="logic">
+      <obj_property name="ElementShortName">cmd_ready</obj_property>
+      <obj_property name="ObjectShortName">cmd_ready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ip_tb/U1/axi_spi_top_0/inst/awstd_ctrl/cmd_op" type="array">
+      <obj_property name="ElementShortName">cmd_op[2:0]</obj_property>
+      <obj_property name="ObjectShortName">cmd_op[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ip_tb/U1/axi_spi_top_0/inst/awstd_ctrl/aw_addr" type="array">
+      <obj_property name="ElementShortName">aw_addr[9:0]</obj_property>
+      <obj_property name="ObjectShortName">aw_addr[9:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ip_tb/U1/axi_spi_top_0/inst/awstd_ctrl/aw_wdata" type="array">
+      <obj_property name="ElementShortName">aw_wdata[47:0]</obj_property>
+      <obj_property name="ObjectShortName">aw_wdata[47:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ip_tb/U1/axi_spi_top_0/inst/awstd_ctrl/aw_ctrl_low13" type="array">
+      <obj_property name="ElementShortName">aw_ctrl_low13[12:0]</obj_property>
+      <obj_property name="ObjectShortName">aw_ctrl_low13[12:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ip_tb/U1/axi_spi_top_0/inst/awstd_ctrl/std_payload" type="array">
+      <obj_property name="ElementShortName">std_payload[59:0]</obj_property>
+      <obj_property name="ObjectShortName">std_payload[59:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ip_tb/U1/axi_spi_top_0/inst/awstd_ctrl/aw_chain_addr10_wr" type="array">
+      <obj_property name="ElementShortName">aw_chain_addr10_wr[39:0]</obj_property>
+      <obj_property name="ObjectShortName">aw_chain_addr10_wr[39:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ip_tb/U1/axi_spi_top_0/inst/awstd_ctrl/aw_chain_addr10_rd" type="array">
+      <obj_property name="ElementShortName">aw_chain_addr10_rd[39:0]</obj_property>
+      <obj_property name="ObjectShortName">aw_chain_addr10_rd[39:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ip_tb/U1/axi_spi_top_0/inst/awstd_ctrl/aw_chain_wdata" type="array">
+      <obj_property name="ElementShortName">aw_chain_wdata[191:0]</obj_property>
+      <obj_property name="ObjectShortName">aw_chain_wdata[191:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ip_tb/U1/axi_spi_top_0/inst/awstd_ctrl/resp_done" type="logic">
+      <obj_property name="ElementShortName">resp_done</obj_property>
+      <obj_property name="ObjectShortName">resp_done</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ip_tb/U1/axi_spi_top_0/inst/awstd_ctrl/std_rx" type="array">
+      <obj_property name="ElementShortName">std_rx[59:0]</obj_property>
+      <obj_property name="ObjectShortName">std_rx[59:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ip_tb/U1/axi_spi_top_0/inst/awstd_ctrl/aw_chain_rx" type="array">
+      <obj_property name="ElementShortName">aw_chain_rx[191:0]</obj_property>
+      <obj_property name="ObjectShortName">aw_chain_rx[191:0]</obj_property>
+   </wvobject>
+</wave_config>

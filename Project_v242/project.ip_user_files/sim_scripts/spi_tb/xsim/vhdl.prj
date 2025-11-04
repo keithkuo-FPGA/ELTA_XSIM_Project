@@ -1,0 +1,5 @@
+vhdl xil_defaultlib  \
+"../../../bd/spi_tb/ip/spi_tb_smartconnect_0_0/bd_0/ip/ip_1/sim/bd_f593_psr_aclk_0.vhd" \
+
+# Do not sort compile order
+nosort

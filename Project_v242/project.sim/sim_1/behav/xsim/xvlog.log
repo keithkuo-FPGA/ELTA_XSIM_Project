@@ -1,0 +1,84 @@
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/tmy/0_elta/SPI/Project_v242/project.ip_user_files/bd/spi_tb/ip/spi_tb_smartconnect_0_0/bd_0/ip/ip_2/sim/bd_f593_arsw_0.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bd_f593_arsw_0
+WARNING: [VRFC 10-8772] attribute 'X_INTERFACE_MODE' is already specified; last one will take precedence [C:/tmy/0_elta/SPI/Project_v242/project.ip_user_files/bd/spi_tb/ip/spi_tb_smartconnect_0_0/bd_0/ip/ip_2/sim/bd_f593_arsw_0.sv:93]
+WARNING: [VRFC 10-8772] attribute 'X_INTERFACE_MODE' is already specified; last one will take precedence [C:/tmy/0_elta/SPI/Project_v242/project.ip_user_files/bd/spi_tb/ip/spi_tb_smartconnect_0_0/bd_0/ip/ip_2/sim/bd_f593_arsw_0.sv:94]
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/tmy/0_elta/SPI/Project_v242/project.ip_user_files/bd/spi_tb/ip/spi_tb_smartconnect_0_0/bd_0/ip/ip_3/sim/bd_f593_rsw_0.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bd_f593_rsw_0
+WARNING: [VRFC 10-8772] attribute 'X_INTERFACE_MODE' is already specified; last one will take precedence [C:/tmy/0_elta/SPI/Project_v242/project.ip_user_files/bd/spi_tb/ip/spi_tb_smartconnect_0_0/bd_0/ip/ip_3/sim/bd_f593_rsw_0.sv:82]
+WARNING: [VRFC 10-8772] attribute 'X_INTERFACE_PARAMETER' is already specified; last one will take precedence [C:/tmy/0_elta/SPI/Project_v242/project.ip_user_files/bd/spi_tb/ip/spi_tb_smartconnect_0_0/bd_0/ip/ip_3/sim/bd_f593_rsw_0.sv:83]
+WARNING: [VRFC 10-8772] attribute 'X_INTERFACE_MODE' is already specified; last one will take precedence [C:/tmy/0_elta/SPI/Project_v242/project.ip_user_files/bd/spi_tb/ip/spi_tb_smartconnect_0_0/bd_0/ip/ip_3/sim/bd_f593_rsw_0.sv:84]
+WARNING: [VRFC 10-8772] attribute 'X_INTERFACE_PARAMETER' is already specified; last one will take precedence [C:/tmy/0_elta/SPI/Project_v242/project.ip_user_files/bd/spi_tb/ip/spi_tb_smartconnect_0_0/bd_0/ip/ip_3/sim/bd_f593_rsw_0.sv:85]
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/tmy/0_elta/SPI/Project_v242/project.ip_user_files/bd/spi_tb/ip/spi_tb_smartconnect_0_0/bd_0/ip/ip_4/sim/bd_f593_awsw_0.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bd_f593_awsw_0
+WARNING: [VRFC 10-8772] attribute 'X_INTERFACE_MODE' is already specified; last one will take precedence [C:/tmy/0_elta/SPI/Project_v242/project.ip_user_files/bd/spi_tb/ip/spi_tb_smartconnect_0_0/bd_0/ip/ip_4/sim/bd_f593_awsw_0.sv:93]
+WARNING: [VRFC 10-8772] attribute 'X_INTERFACE_MODE' is already specified; last one will take precedence [C:/tmy/0_elta/SPI/Project_v242/project.ip_user_files/bd/spi_tb/ip/spi_tb_smartconnect_0_0/bd_0/ip/ip_4/sim/bd_f593_awsw_0.sv:94]
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/tmy/0_elta/SPI/Project_v242/project.ip_user_files/bd/spi_tb/ip/spi_tb_smartconnect_0_0/bd_0/ip/ip_5/sim/bd_f593_wsw_0.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bd_f593_wsw_0
+WARNING: [VRFC 10-8772] attribute 'X_INTERFACE_MODE' is already specified; last one will take precedence [C:/tmy/0_elta/SPI/Project_v242/project.ip_user_files/bd/spi_tb/ip/spi_tb_smartconnect_0_0/bd_0/ip/ip_5/sim/bd_f593_wsw_0.sv:93]
+WARNING: [VRFC 10-8772] attribute 'X_INTERFACE_MODE' is already specified; last one will take precedence [C:/tmy/0_elta/SPI/Project_v242/project.ip_user_files/bd/spi_tb/ip/spi_tb_smartconnect_0_0/bd_0/ip/ip_5/sim/bd_f593_wsw_0.sv:94]
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/tmy/0_elta/SPI/Project_v242/project.ip_user_files/bd/spi_tb/ip/spi_tb_smartconnect_0_0/bd_0/ip/ip_6/sim/bd_f593_bsw_0.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bd_f593_bsw_0
+WARNING: [VRFC 10-8772] attribute 'X_INTERFACE_MODE' is already specified; last one will take precedence [C:/tmy/0_elta/SPI/Project_v242/project.ip_user_files/bd/spi_tb/ip/spi_tb_smartconnect_0_0/bd_0/ip/ip_6/sim/bd_f593_bsw_0.sv:82]
+WARNING: [VRFC 10-8772] attribute 'X_INTERFACE_PARAMETER' is already specified; last one will take precedence [C:/tmy/0_elta/SPI/Project_v242/project.ip_user_files/bd/spi_tb/ip/spi_tb_smartconnect_0_0/bd_0/ip/ip_6/sim/bd_f593_bsw_0.sv:83]
+WARNING: [VRFC 10-8772] attribute 'X_INTERFACE_MODE' is already specified; last one will take precedence [C:/tmy/0_elta/SPI/Project_v242/project.ip_user_files/bd/spi_tb/ip/spi_tb_smartconnect_0_0/bd_0/ip/ip_6/sim/bd_f593_bsw_0.sv:84]
+WARNING: [VRFC 10-8772] attribute 'X_INTERFACE_PARAMETER' is already specified; last one will take precedence [C:/tmy/0_elta/SPI/Project_v242/project.ip_user_files/bd/spi_tb/ip/spi_tb_smartconnect_0_0/bd_0/ip/ip_6/sim/bd_f593_bsw_0.sv:85]
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/tmy/0_elta/SPI/Project_v242/project.ip_user_files/bd/spi_tb/ip/spi_tb_smartconnect_0_0/bd_0/ip/ip_7/sim/bd_f593_s00mmu_0.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bd_f593_s00mmu_0
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/tmy/0_elta/SPI/Project_v242/project.ip_user_files/bd/spi_tb/ip/spi_tb_smartconnect_0_0/bd_0/ip/ip_8/sim/bd_f593_s00tr_0.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bd_f593_s00tr_0
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/tmy/0_elta/SPI/Project_v242/project.ip_user_files/bd/spi_tb/ip/spi_tb_smartconnect_0_0/bd_0/ip/ip_9/sim/bd_f593_s00sic_0.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bd_f593_s00sic_0
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/tmy/0_elta/SPI/Project_v242/project.ip_user_files/bd/spi_tb/ip/spi_tb_smartconnect_0_0/bd_0/ip/ip_10/sim/bd_f593_s00a2s_0.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bd_f593_s00a2s_0
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/tmy/0_elta/SPI/Project_v242/project.ip_user_files/bd/spi_tb/ip/spi_tb_smartconnect_0_0/bd_0/ip/ip_11/sim/bd_f593_sarn_0.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bd_f593_sarn_0
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/tmy/0_elta/SPI/Project_v242/project.ip_user_files/bd/spi_tb/ip/spi_tb_smartconnect_0_0/bd_0/ip/ip_12/sim/bd_f593_srn_0.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bd_f593_srn_0
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/tmy/0_elta/SPI/Project_v242/project.ip_user_files/bd/spi_tb/ip/spi_tb_smartconnect_0_0/bd_0/ip/ip_13/sim/bd_f593_sawn_0.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bd_f593_sawn_0
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/tmy/0_elta/SPI/Project_v242/project.ip_user_files/bd/spi_tb/ip/spi_tb_smartconnect_0_0/bd_0/ip/ip_14/sim/bd_f593_swn_0.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bd_f593_swn_0
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/tmy/0_elta/SPI/Project_v242/project.ip_user_files/bd/spi_tb/ip/spi_tb_smartconnect_0_0/bd_0/ip/ip_15/sim/bd_f593_sbn_0.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bd_f593_sbn_0
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/tmy/0_elta/SPI/Project_v242/project.ip_user_files/bd/spi_tb/ip/spi_tb_smartconnect_0_0/bd_0/ip/ip_16/sim/bd_f593_m00s2a_0.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bd_f593_m00s2a_0
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/tmy/0_elta/SPI/Project_v242/project.ip_user_files/bd/spi_tb/ip/spi_tb_smartconnect_0_0/bd_0/ip/ip_17/sim/bd_f593_m00arn_0.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bd_f593_m00arn_0
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/tmy/0_elta/SPI/Project_v242/project.ip_user_files/bd/spi_tb/ip/spi_tb_smartconnect_0_0/bd_0/ip/ip_18/sim/bd_f593_m00rn_0.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bd_f593_m00rn_0
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/tmy/0_elta/SPI/Project_v242/project.ip_user_files/bd/spi_tb/ip/spi_tb_smartconnect_0_0/bd_0/ip/ip_19/sim/bd_f593_m00awn_0.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bd_f593_m00awn_0
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/tmy/0_elta/SPI/Project_v242/project.ip_user_files/bd/spi_tb/ip/spi_tb_smartconnect_0_0/bd_0/ip/ip_20/sim/bd_f593_m00wn_0.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bd_f593_m00wn_0
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/tmy/0_elta/SPI/Project_v242/project.ip_user_files/bd/spi_tb/ip/spi_tb_smartconnect_0_0/bd_0/ip/ip_21/sim/bd_f593_m00bn_0.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bd_f593_m00bn_0
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/tmy/0_elta/SPI/Project_v242/project.ip_user_files/bd/spi_tb/ip/spi_tb_smartconnect_0_0/bd_0/ip/ip_22/sim/bd_f593_m00e_0.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bd_f593_m00e_0
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/tmy/0_elta/SPI/Project_v242/project.ip_user_files/bd/spi_tb/ip/spi_tb_smartconnect_0_0/bd_0/ip/ip_23/sim/bd_f593_m01s2a_0.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bd_f593_m01s2a_0
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/tmy/0_elta/SPI/Project_v242/project.ip_user_files/bd/spi_tb/ip/spi_tb_smartconnect_0_0/bd_0/ip/ip_24/sim/bd_f593_m01arn_0.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bd_f593_m01arn_0
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/tmy/0_elta/SPI/Project_v242/project.ip_user_files/bd/spi_tb/ip/spi_tb_smartconnect_0_0/bd_0/ip/ip_25/sim/bd_f593_m01rn_0.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bd_f593_m01rn_0
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/tmy/0_elta/SPI/Project_v242/project.ip_user_files/bd/spi_tb/ip/spi_tb_smartconnect_0_0/bd_0/ip/ip_26/sim/bd_f593_m01awn_0.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bd_f593_m01awn_0
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/tmy/0_elta/SPI/Project_v242/project.ip_user_files/bd/spi_tb/ip/spi_tb_smartconnect_0_0/bd_0/ip/ip_27/sim/bd_f593_m01wn_0.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bd_f593_m01wn_0
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/tmy/0_elta/SPI/Project_v242/project.ip_user_files/bd/spi_tb/ip/spi_tb_smartconnect_0_0/bd_0/ip/ip_28/sim/bd_f593_m01bn_0.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bd_f593_m01bn_0
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/tmy/0_elta/SPI/Project_v242/project.ip_user_files/bd/spi_tb/ip/spi_tb_smartconnect_0_0/bd_0/ip/ip_29/sim/bd_f593_m01e_0.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bd_f593_m01e_0
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/tmy/0_elta/SPI/Project_v242/project.ip_user_files/bd/spi_tb/ip/spi_tb_smartconnect_0_0/bd_0/ip/ip_30/sim/bd_f593_m02s2a_0.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bd_f593_m02s2a_0
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/tmy/0_elta/SPI/Project_v242/project.ip_user_files/bd/spi_tb/ip/spi_tb_smartconnect_0_0/bd_0/ip/ip_31/sim/bd_f593_m02arn_0.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bd_f593_m02arn_0
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/tmy/0_elta/SPI/Project_v242/project.ip_user_files/bd/spi_tb/ip/spi_tb_smartconnect_0_0/bd_0/ip/ip_32/sim/bd_f593_m02rn_0.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bd_f593_m02rn_0
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/tmy/0_elta/SPI/Project_v242/project.ip_user_files/bd/spi_tb/ip/spi_tb_smartconnect_0_0/bd_0/ip/ip_33/sim/bd_f593_m02awn_0.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bd_f593_m02awn_0
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/tmy/0_elta/SPI/Project_v242/project.ip_user_files/bd/spi_tb/ip/spi_tb_smartconnect_0_0/bd_0/ip/ip_34/sim/bd_f593_m02wn_0.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bd_f593_m02wn_0
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/tmy/0_elta/SPI/Project_v242/project.ip_user_files/bd/spi_tb/ip/spi_tb_smartconnect_0_0/bd_0/ip/ip_35/sim/bd_f593_m02bn_0.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bd_f593_m02bn_0
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/tmy/0_elta/SPI/Project_v242/project.ip_user_files/bd/spi_tb/ip/spi_tb_smartconnect_0_0/bd_0/ip/ip_36/sim/bd_f593_m02e_0.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bd_f593_m02e_0

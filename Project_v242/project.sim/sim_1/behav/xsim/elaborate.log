@@ -1,0 +1,164 @@
+Vivado Simulator v2024.2.0
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2024.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L axi_infrastructure_v1_1_0 -L axi_vip_v1_1_19 -L xlconstant_v1_1_9 -L lib_cdc_v1_0_3 -L proc_sys_reset_v5_0_16 -L smartconnect_v1_0 -L axi_register_slice_v2_1_33 -L uvm -L xilinx_vip -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot ip_tb_behav xil_defaultlib.ip_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 7 differs from formal bit length 32 for port 'M_AXI_0_araddr' [C:/tmy/0_elta/SPI/SIM/tb_axi_spi.sv:150]
+WARNING: [VRFC 10-3091] actual bit length 7 differs from formal bit length 32 for port 'M_AXI_0_awaddr' [C:/tmy/0_elta/SPI/SIM/tb_axi_spi.sv:154]
+WARNING: [VRFC 10-3091] actual bit length 576 differs from formal bit length 864 for port 'Data_out' [C:/tmy/0_elta/SPI/RTL/axi_spi_top.v:204]
+WARNING: [VRFC 10-5021] port 'M_AXI_0_rlast' is not connected on this instance [C:/tmy/0_elta/SPI/SIM/tb_axi_spi.sv:134]
+WARNING: [VRFC 10-5021] port 'mb_reset' is not connected on this instance [C:/tmy/0_elta/SPI/Project_v242/project.ip_user_files/bd/spi_tb/ip/spi_tb_smartconnect_0_0/bd_0/sim/bd_f593.v:1606]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package unisim.vcomponents
+Compiling package ieee.vital_timing
+Compiling package ieee.vital_primitives
+Compiling package unisim.vpkg
+Compiling package ieee.std_logic_arith
+Compiling package synopsys.attributes
+Compiling package ieee.std_logic_misc
+Compiling package xilinx_vip.axi_vip_pkg
+Compiling package xilinx_vip.xil_common_vip_pkg
+Compiling package std.std
+Compiling package smartconnect_v1_0.sc_util_v1_0_4_pkg
+Compiling package xil_defaultlib.$unit_tb_axi_spi_sv
+Compiling package xil_defaultlib.spi_tb_axi_vip_0_0_pkg
+Compiling module unisims_ver.USR_ACCESSE2
+Compiling module xil_defaultlib.Version_AXI(VERSION_YYYY=2025,VE...
+Compiling module xil_defaultlib.Version
+Compiling module xil_defaultlib.spi_tb_Version_0_0
+Compiling module xil_defaultlib.AXI_lite_to_Reg(NUM_REGS=27)
+Compiling module xpm.xpm_cdc_sync_rst(DEST_SYNC_FF=2,...
+Compiling module xpm.xpm_fifo_rst(COMMON_CLOCK=0)
+Compiling module xpm.xpm_fifo_reg_bit
+Compiling module xpm.xpm_counter_updn(COUNTER_WIDTH=5...
+Compiling module xpm.xpm_counter_updn
+Compiling module xpm.xpm_memory_base(MEMORY_TYPE=1,ME...
+Compiling module xpm.xpm_cdc_gray(DEST_SYNC_FF=2,INIT...
+Compiling module xpm.xpm_fifo_reg_vec
+Compiling module xpm.xpm_cdc_gray(INIT_SYNC_FF=1,WIDT...
+Compiling module xpm.xpm_fifo_reg_vec(REG_WIDTH=5)
+Compiling module xpm.xpm_cdc_gray(DEST_SYNC_FF=2,INIT...
+Compiling module xpm.xpm_counter_updn(COUNTER_WIDTH=2...
+Compiling module xpm.xpm_fifo_base(COMMON_CLOCK=0,FIF...
+Compiling module xpm.xpm_fifo_async(FIFO_MEMORY_TYPE=...
+Compiling module xpm.xpm_counter_updn(COUNTER_WIDTH=6...
+Compiling module xpm.xpm_memory_base(MEMORY_TYPE=1,ME...
+Compiling module xpm.xpm_cdc_gray(INIT_SYNC_FF=1,WIDT...
+Compiling module xpm.xpm_fifo_reg_vec(REG_WIDTH=6)
+Compiling module xpm.xpm_cdc_gray(DEST_SYNC_FF=2,INIT...
+Compiling module xpm.xpm_fifo_base(COMMON_CLOCK=0,FIF...
+Compiling module xpm.xpm_fifo_async(FIFO_MEMORY_TYPE=...
+Compiling module xil_defaultlib.aw_serial60_builder_default
+Compiling module xil_defaultlib.aw_broadcast62_builder_default
+Compiling module xil_defaultlib.aw_chain_concat(REVERSE_ORDER=1)
+Compiling module xil_defaultlib.spi_bit_engine
+Compiling module xil_defaultlib.spi_master_top(MAX_BITS=1024)
+Compiling module xil_defaultlib.awstd_controller(MAX_BITS=1024,S...
+Compiling module xpm.xpm_cdc_single(DEST_SYNC_FF=2,IN...
+Compiling module xpm.xpm_cdc_pulse(DEST_SYNC_FF=2,INI...
+Compiling module xil_defaultlib.spi_resp_cdc_default
+Compiling module xil_defaultlib.axi_spi_top_default
+Compiling module xil_defaultlib.spi_tb_axi_spi_top_0_5
+Compiling module xilinx_vip.axi_vip_axi4pc(WDATA_WIDTH=32,RD...
+Compiling module xilinx_vip.cb
+Compiling module xilinx_vip.axi_vip_if(C_AXI_SUPPORTS_NARROW...
+Compiling module axi_vip_v1_1_19.axi_vip_v1_1_19_top(C_AXI_INTERF...
+Compiling module xil_defaultlib.spi_tb_axi_vip_0_0
+Compiling module xlconstant_v1_1_9.xlconstant_v1_1_9_xlconstant(CON...
+Compiling module xil_defaultlib.bd_f593_one_0
+Compiling architecture fdre_v of entity unisim.FDRE [fdre_default]
+Compiling architecture fdre_v of entity unisim.FDRE [\FDRE(init='1')\]
+Compiling architecture fdr_v of entity unisim.FDR [fdr_default]
+Compiling architecture implementation of entity lib_cdc_v1_0_3.cdc_sync [\cdc_sync(c_vector_width=2,c_mtb...]
+Compiling architecture srl16e_v of entity unisim.SRL16E [\SRL16E(init="1111111111111111")...]
+Compiling architecture srl16_v of entity unisim.SRL16 [\SRL16(init="1111111111111111")(...]
+Compiling architecture imp of entity proc_sys_reset_v5_0_16.lpf [\lpf(c_ext_rst_width=4,c_aux_rst...]
+Compiling architecture imp of entity proc_sys_reset_v5_0_16.upcnt_n [\upcnt_n(c_size=6)\]
+Compiling architecture imp of entity proc_sys_reset_v5_0_16.sequence_psr [sequence_psr_default]
+Compiling architecture imp of entity proc_sys_reset_v5_0_16.proc_sys_reset [\proc_sys_reset(c_family="zynqup...]
+Compiling architecture bd_f593_psr_aclk_0_arch of entity xil_defaultlib.bd_f593_psr_aclk_0 [bd_f593_psr_aclk_0_default]
+Compiling module xil_defaultlib.clk_map_imp_1A2JALU
+Compiling module xpm.xpm_cdc_async_rst(DEST_SYNC_FF=3...
+Compiling module xil_defaultlib.bd_f593_m00e_0
+Compiling module xil_defaultlib.m00_exit_pipeline_imp_Q9E46H
+Compiling module xpm.xpm_memory_base(MEMORY_TYPE=1,ME...
+Compiling module xpm.xpm_memory_sdpram(MEMORY_SIZE=32...
+Compiling module xpm.xpm_memory_base(MEMORY_TYPE=1,ME...
+Compiling module xpm.xpm_memory_sdpram(MEMORY_SIZE=50...
+Compiling module xil_defaultlib.bd_f593_m00arn_0
+Compiling module xil_defaultlib.bd_f593_m00awn_0
+Compiling module xpm.xpm_memory_base(MEMORY_TYPE=1,ME...
+Compiling module xpm.xpm_memory_sdpram(MEMORY_SIZE=57...
+Compiling module xpm.xpm_memory_base(MEMORY_TYPE=1,ME...
+Compiling module xpm.xpm_memory_sdpram(MEMORY_SIZE=16...
+Compiling module xil_defaultlib.bd_f593_m00bn_0
+Compiling module xpm.xpm_memory_base(MEMORY_TYPE=1,ME...
+Compiling module xpm.xpm_memory_sdpram(MEMORY_SIZE=16...
+Compiling module xil_defaultlib.bd_f593_m00rn_0
+Compiling module xpm.xpm_memory_base(MEMORY_TYPE=1,ME...
+Compiling module xpm.xpm_memory_sdpram(MEMORY_SIZE=23...
+Compiling module xil_defaultlib.bd_f593_m00wn_0
+Compiling module xil_defaultlib.m00_nodes_imp_41GWAT
+Compiling module xil_defaultlib.bd_f593_m00s2a_0
+Compiling module xil_defaultlib.bd_f593_m01e_0
+Compiling module xil_defaultlib.m01_exit_pipeline_imp_KEOQCP
+Compiling module xil_defaultlib.bd_f593_m01arn_0
+Compiling module xil_defaultlib.bd_f593_m01awn_0
+Compiling module xil_defaultlib.bd_f593_m01bn_0
+Compiling module xil_defaultlib.bd_f593_m01rn_0
+Compiling module xil_defaultlib.bd_f593_m01wn_0
+Compiling module xil_defaultlib.m01_nodes_imp_14YKULV
+Compiling module xil_defaultlib.bd_f593_m01s2a_0
+Compiling module xil_defaultlib.bd_f593_m02e_0
+Compiling module xil_defaultlib.m02_exit_pipeline_imp_VCBH9L
+Compiling module xil_defaultlib.bd_f593_m02arn_0
+Compiling module xil_defaultlib.bd_f593_m02awn_0
+Compiling module xil_defaultlib.bd_f593_m02bn_0
+Compiling module xil_defaultlib.bd_f593_m02rn_0
+Compiling module xil_defaultlib.bd_f593_m02wn_0
+Compiling module xil_defaultlib.m02_nodes_imp_1UL94IW
+Compiling module xil_defaultlib.bd_f593_m02s2a_0
+Compiling module xil_defaultlib.bd_f593_s00a2s_0
+Compiling module xil_defaultlib.bd_f593_s00mmu_0
+Compiling module xil_defaultlib.bd_f593_s00sic_0
+Compiling module xil_defaultlib.bd_f593_s00tr_0
+Compiling module xil_defaultlib.s00_entry_pipeline_imp_1PGZYJU
+Compiling module xpm.xpm_memory_base(MEMORY_TYPE=1,ME...
+Compiling module xpm.xpm_memory_sdpram(MEMORY_SIZE=64...
+Compiling module xpm.xpm_memory_base(MEMORY_TYPE=1,ME...
+Compiling module xpm.xpm_memory_sdpram(MEMORY_SIZE=44...
+Compiling module xil_defaultlib.bd_f593_sarn_0
+Compiling module xil_defaultlib.bd_f593_sawn_0
+Compiling module xpm.xpm_memory_base(MEMORY_TYPE=1,ME...
+Compiling module xpm.xpm_memory_sdpram(MEMORY_SIZE=76...
+Compiling module xil_defaultlib.bd_f593_sbn_0
+Compiling module xpm.xpm_memory_base(MEMORY_TYPE=1,ME...
+Compiling module xpm.xpm_memory_sdpram(MEMORY_SIZE=22...
+Compiling module xil_defaultlib.bd_f593_srn_0
+Compiling module xpm.xpm_memory_base(MEMORY_TYPE=1,ME...
+Compiling module xpm.xpm_memory_sdpram(MEMORY_SIZE=17...
+Compiling module xil_defaultlib.bd_f593_swn_0
+Compiling module xil_defaultlib.s00_nodes_imp_1JJUK6O
+Compiling module xil_defaultlib.bd_f593_arsw_0
+Compiling module xil_defaultlib.bd_f593_awsw_0
+Compiling module xil_defaultlib.bd_f593_bsw_0
+Compiling module xil_defaultlib.bd_f593_rsw_0
+Compiling module xil_defaultlib.bd_f593_wsw_0
+Compiling module xil_defaultlib.switchboards_imp_19FR0DG
+Compiling module xil_defaultlib.bd_f593
+Compiling module xil_defaultlib.spi_tb_smartconnect_0_0
+Compiling module xil_defaultlib.spi_tb
+Compiling module xil_defaultlib.spi_slv_ific
+Compiling module xil_defaultlib.ificx4
+Compiling module xil_defaultlib.ip_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot ip_tb_behav

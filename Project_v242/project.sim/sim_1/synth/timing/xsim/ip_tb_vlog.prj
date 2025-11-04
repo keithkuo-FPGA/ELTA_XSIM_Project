@@ -1,0 +1,24 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "../../../../../project.gen/sources_1/bd/spi_tb/ipshared/ec67/hdl" --include "../../../../../project.gen/sources_1/bd/spi_tb/ipshared/f0b6/hdl/verilog" --include "../../../../../project.gen/sources_1/bd/spi_tb/ipshared/0127/hdl/verilog" --include "C:/Xilinx/Vivado/2024.2/data/xilinx_vip/include" \
+"ip_tb_time_synth.v" \
+"../../../../../../RTL/awstd_controller.v" \
+"../../../../../../RTL/spi_bit_engine.v" \
+"../../../../../../RTL/spi_master_top.v" \
+"../../../../../../RTL/spi_packet_builders.v" \
+"../../../../../../RTL/spi_resp_cdc.v" \
+
+sv xil_defaultlib  --include "../../../../../project.gen/sources_1/bd/spi_tb/ipshared/ec67/hdl" --include "../../../../../project.gen/sources_1/bd/spi_tb/ipshared/f0b6/hdl/verilog" --include "../../../../../project.gen/sources_1/bd/spi_tb/ipshared/0127/hdl/verilog" --include "C:/Xilinx/Vivado/2024.2/data/xilinx_vip/include" \
+"../../../../../../RTL/axi_slave_lite.v" \
+
+verilog xil_defaultlib  --include "../../../../../project.gen/sources_1/bd/spi_tb/ipshared/ec67/hdl" --include "../../../../../project.gen/sources_1/bd/spi_tb/ipshared/f0b6/hdl/verilog" --include "../../../../../project.gen/sources_1/bd/spi_tb/ipshared/0127/hdl/verilog" --include "C:/Xilinx/Vivado/2024.2/data/xilinx_vip/include" \
+"../../../../../../RTL/axi_spi_top.v" \
+"../../../../../../SIM/Version_AXI.v" \
+"../../../../../../SIM/Version.v" \
+"../../../../../../SIM/ificx4.v" \
+"../../../../../../SIM/spi_slv_ific.v" \
+
+sv xil_defaultlib  --include "../../../../../project.gen/sources_1/bd/spi_tb/ipshared/ec67/hdl" --include "../../../../../project.gen/sources_1/bd/spi_tb/ipshared/f0b6/hdl/verilog" --include "../../../../../project.gen/sources_1/bd/spi_tb/ipshared/0127/hdl/verilog" --include "C:/Xilinx/Vivado/2024.2/data/xilinx_vip/include" \
+"../../../../../../SIM/tb_axi_spi.sv" \
+
+# Do not sort compile order
+nosort

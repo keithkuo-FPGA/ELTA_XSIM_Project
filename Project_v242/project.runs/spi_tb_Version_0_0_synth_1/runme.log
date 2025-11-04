@@ -1,0 +1,494 @@
+
+*** Running vivado
+    with args -log spi_tb_Version_0_0.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source spi_tb_Version_0_0.tcl
+
+
+
+****** Vivado v2024.2 (64-bit)
+  **** SW Build 5239630 on Fri Nov 08 22:35:27 MST 2024
+  **** IP Build 5239520 on Sun Nov 10 16:12:51 MST 2024
+  **** SharedData Build 5239561 on Fri Nov 08 14:39:27 MST 2024
+  **** Start of session at: Thu Sep 11 15:57:52 2025
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source spi_tb_Version_0_0.tcl -notrace
+create_project: Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 622.824 ; gain = 191.211
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2024.2/data/ip'.
+Command: synth_design -top spi_tb_Version_0_0 -part xck26-sfvc784-2LV-c -incremental_mode off -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xck26'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xck26'
+INFO: [Device 21-403] Loading part xck26-sfvc784-2LV-c
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 12320
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1850.852 ; gain = 179.586
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'spi_tb_Version_0_0' [c:/tmy/0_elta/SPI/Project_v242/project.gen/sources_1/bd/spi_tb/ip/spi_tb_Version_0_0/synth/spi_tb_Version_0_0.v:53]
+INFO: [Synth 8-6157] synthesizing module 'Version' [C:/tmy/0_elta/SPI/SIM/Version.v:3]
+	Parameter VERSION_YYYY bound to: 2025 - type: integer 
+	Parameter VERSION_MM bound to: 8 - type: integer 
+	Parameter VERSION_DD bound to: 14 - type: integer 
+	Parameter VERSION_MAJ bound to: 0 - type: integer 
+	Parameter VERSION_MIN bound to: 2 - type: integer 
+	Parameter VERSION_REV bound to: 1 - type: integer 
+	Parameter VERSION_COMPANY bound to: 1 - type: integer 
+	Parameter VERSION_MODE bound to: 1 - type: integer 
+	Parameter VERSION_BOARD bound to: 1 - type: integer 
+	Parameter VERSION_HW bound to: 1 - type: integer 
+	Parameter NOTE_LENGTH bound to: 112 - type: integer 
+	Parameter TEXT_0 bound to: Viva - type: string 
+	Parameter TEXT_1 bound to: do 2 - type: string 
+	Parameter TEXT_2 bound to: 024. - type: string 
+	Parameter TEXT_3 bound to: 2 -  - type: string 
+	Parameter TEXT_4 bound to:      - type: string 
+	Parameter TEXT_5 bound to:      - type: string 
+	Parameter TEXT_6 bound to:      - type: string 
+	Parameter TEXT_7 bound to:      - type: string 
+	Parameter TEXT_8 bound to:      - type: string 
+	Parameter TEXT_9 bound to:      - type: string 
+	Parameter TEXT_10 bound to:      - type: string 
+	Parameter TEXT_11 bound to:      - type: string 
+	Parameter TEXT_12 bound to:      - type: string 
+	Parameter TEXT_13 bound to:      - type: string 
+	Parameter TEXT_14 bound to:      - type: string 
+	Parameter TEXT_15 bound to:      - type: string 
+	Parameter TEXT_16 bound to:      - type: string 
+	Parameter TEXT_17 bound to:      - type: string 
+	Parameter TEXT_18 bound to:      - type: string 
+	Parameter TEXT_19 bound to:      - type: string 
+	Parameter TEXT_20 bound to:      - type: string 
+	Parameter TEXT_21 bound to:      - type: string 
+	Parameter TEXT_22 bound to:      - type: string 
+	Parameter TEXT_23 bound to:      - type: string 
+	Parameter TEXT_24 bound to:      - type: string 
+	Parameter TEXT_25 bound to:      - type: string 
+	Parameter TEXT_26 bound to:      - type: string 
+	Parameter TEXT_27 bound to:      - type: string 
+	Parameter C_S00_AXI_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_S00_AXI_ADDR_WIDTH bound to: 7 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'Version_AXI' [C:/tmy/0_elta/SPI/SIM/Version_AXI.v:4]
+	Parameter VERSION_YYYY bound to: 2025 - type: integer 
+	Parameter VERSION_MM bound to: 8 - type: integer 
+	Parameter VERSION_DD bound to: 14 - type: integer 
+	Parameter VERSION_MAJ bound to: 0 - type: integer 
+	Parameter VERSION_MIN bound to: 2 - type: integer 
+	Parameter VERSION_REV bound to: 1 - type: integer 
+	Parameter VERSION_COMPANY bound to: 1 - type: integer 
+	Parameter VERSION_MODE bound to: 1 - type: integer 
+	Parameter VERSION_BOARD bound to: 1 - type: integer 
+	Parameter VERSION_HW bound to: 1 - type: integer 
+	Parameter NOTE_LENGTH bound to: 112 - type: integer 
+	Parameter TEXT_0 bound to: Viva - type: string 
+	Parameter TEXT_1 bound to: do 2 - type: string 
+	Parameter TEXT_2 bound to: 024. - type: string 
+	Parameter TEXT_3 bound to: 2 -  - type: string 
+	Parameter TEXT_4 bound to:      - type: string 
+	Parameter TEXT_5 bound to:      - type: string 
+	Parameter TEXT_6 bound to:      - type: string 
+	Parameter TEXT_7 bound to:      - type: string 
+	Parameter TEXT_8 bound to:      - type: string 
+	Parameter TEXT_9 bound to:      - type: string 
+	Parameter TEXT_10 bound to:      - type: string 
+	Parameter TEXT_11 bound to:      - type: string 
+	Parameter TEXT_12 bound to:      - type: string 
+	Parameter TEXT_13 bound to:      - type: string 
+	Parameter TEXT_14 bound to:      - type: string 
+	Parameter TEXT_15 bound to:      - type: string 
+	Parameter TEXT_16 bound to:      - type: string 
+	Parameter TEXT_17 bound to:      - type: string 
+	Parameter TEXT_18 bound to:      - type: string 
+	Parameter TEXT_19 bound to:      - type: string 
+	Parameter TEXT_20 bound to:      - type: string 
+	Parameter TEXT_21 bound to:      - type: string 
+	Parameter TEXT_22 bound to:      - type: string 
+	Parameter TEXT_23 bound to:      - type: string 
+	Parameter TEXT_24 bound to:      - type: string 
+	Parameter TEXT_25 bound to:      - type: string 
+	Parameter TEXT_26 bound to:      - type: string 
+	Parameter TEXT_27 bound to:      - type: string 
+	Parameter C_S_AXI_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_S_AXI_ADDR_WIDTH bound to: 7 - type: integer 
+INFO: [Synth 8-155] case statement is not full and has no default [C:/tmy/0_elta/SPI/SIM/Version_AXI.v:248]
+INFO: [Synth 8-226] default block is never used [C:/tmy/0_elta/SPI/SIM/Version_AXI.v:350]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/tmy/0_elta/SPI/SIM/Version_AXI.v:627]
+INFO: [Synth 8-226] default block is never used [C:/tmy/0_elta/SPI/SIM/Version_AXI.v:668]
+INFO: [Synth 8-6157] synthesizing module 'USR_ACCESSE2' [C:/Xilinx/Vivado/2024.2/scripts/rt/data/unisim_comp.v:152690]
+INFO: [Synth 8-6155] done synthesizing module 'USR_ACCESSE2' (0#1) [C:/Xilinx/Vivado/2024.2/scripts/rt/data/unisim_comp.v:152690]
+INFO: [Synth 8-6155] done synthesizing module 'Version_AXI' (0#1) [C:/tmy/0_elta/SPI/SIM/Version_AXI.v:4]
+INFO: [Synth 8-6155] done synthesizing module 'Version' (0#1) [C:/tmy/0_elta/SPI/SIM/Version.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'spi_tb_Version_0_0' (0#1) [c:/tmy/0_elta/SPI/Project_v242/project.gen/sources_1/bd/spi_tb/ip/spi_tb_Version_0_0/synth/spi_tb_Version_0_0.v:53]
+WARNING: [Synth 8-6014] Unused sequential element axi_awaddr_reg was removed.  [C:/tmy/0_elta/SPI/SIM/Version_AXI.v:243]
+WARNING: [Synth 8-6014] Unused sequential element slv_reg0_reg was removed.  [C:/tmy/0_elta/SPI/SIM/Version_AXI.v:314]
+WARNING: [Synth 8-6014] Unused sequential element slv_reg1_reg was removed.  [C:/tmy/0_elta/SPI/SIM/Version_AXI.v:315]
+WARNING: [Synth 8-6014] Unused sequential element slv_reg2_reg was removed.  [C:/tmy/0_elta/SPI/SIM/Version_AXI.v:316]
+WARNING: [Synth 8-6014] Unused sequential element slv_reg3_reg was removed.  [C:/tmy/0_elta/SPI/SIM/Version_AXI.v:317]
+WARNING: [Synth 8-6014] Unused sequential element slv_reg4_reg was removed.  [C:/tmy/0_elta/SPI/SIM/Version_AXI.v:318]
+WARNING: [Synth 8-6014] Unused sequential element slv_reg5_reg was removed.  [C:/tmy/0_elta/SPI/SIM/Version_AXI.v:319]
+WARNING: [Synth 8-6014] Unused sequential element slv_reg6_reg was removed.  [C:/tmy/0_elta/SPI/SIM/Version_AXI.v:320]
+WARNING: [Synth 8-6014] Unused sequential element slv_reg7_reg was removed.  [C:/tmy/0_elta/SPI/SIM/Version_AXI.v:321]
+WARNING: [Synth 8-6014] Unused sequential element slv_reg8_reg was removed.  [C:/tmy/0_elta/SPI/SIM/Version_AXI.v:322]
+WARNING: [Synth 8-6014] Unused sequential element slv_reg9_reg was removed.  [C:/tmy/0_elta/SPI/SIM/Version_AXI.v:323]
+WARNING: [Synth 8-6014] Unused sequential element slv_reg10_reg was removed.  [C:/tmy/0_elta/SPI/SIM/Version_AXI.v:324]
+WARNING: [Synth 8-6014] Unused sequential element slv_reg11_reg was removed.  [C:/tmy/0_elta/SPI/SIM/Version_AXI.v:325]
+WARNING: [Synth 8-6014] Unused sequential element slv_reg12_reg was removed.  [C:/tmy/0_elta/SPI/SIM/Version_AXI.v:326]
+WARNING: [Synth 8-6014] Unused sequential element slv_reg13_reg was removed.  [C:/tmy/0_elta/SPI/SIM/Version_AXI.v:327]
+WARNING: [Synth 8-6014] Unused sequential element slv_reg14_reg was removed.  [C:/tmy/0_elta/SPI/SIM/Version_AXI.v:328]
+WARNING: [Synth 8-6014] Unused sequential element slv_reg15_reg was removed.  [C:/tmy/0_elta/SPI/SIM/Version_AXI.v:329]
+WARNING: [Synth 8-6014] Unused sequential element slv_reg16_reg was removed.  [C:/tmy/0_elta/SPI/SIM/Version_AXI.v:330]
+WARNING: [Synth 8-6014] Unused sequential element slv_reg17_reg was removed.  [C:/tmy/0_elta/SPI/SIM/Version_AXI.v:331]
+WARNING: [Synth 8-6014] Unused sequential element slv_reg18_reg was removed.  [C:/tmy/0_elta/SPI/SIM/Version_AXI.v:332]
+WARNING: [Synth 8-6014] Unused sequential element slv_reg19_reg was removed.  [C:/tmy/0_elta/SPI/SIM/Version_AXI.v:333]
+WARNING: [Synth 8-6014] Unused sequential element slv_reg20_reg was removed.  [C:/tmy/0_elta/SPI/SIM/Version_AXI.v:334]
+WARNING: [Synth 8-6014] Unused sequential element slv_reg21_reg was removed.  [C:/tmy/0_elta/SPI/SIM/Version_AXI.v:335]
+WARNING: [Synth 8-6014] Unused sequential element slv_reg22_reg was removed.  [C:/tmy/0_elta/SPI/SIM/Version_AXI.v:336]
+WARNING: [Synth 8-6014] Unused sequential element slv_reg23_reg was removed.  [C:/tmy/0_elta/SPI/SIM/Version_AXI.v:337]
+WARNING: [Synth 8-6014] Unused sequential element slv_reg24_reg was removed.  [C:/tmy/0_elta/SPI/SIM/Version_AXI.v:338]
+WARNING: [Synth 8-6014] Unused sequential element slv_reg25_reg was removed.  [C:/tmy/0_elta/SPI/SIM/Version_AXI.v:339]
+WARNING: [Synth 8-6014] Unused sequential element slv_reg26_reg was removed.  [C:/tmy/0_elta/SPI/SIM/Version_AXI.v:340]
+WARNING: [Synth 8-6014] Unused sequential element slv_reg27_reg was removed.  [C:/tmy/0_elta/SPI/SIM/Version_AXI.v:341]
+WARNING: [Synth 8-6014] Unused sequential element slv_reg28_reg was removed.  [C:/tmy/0_elta/SPI/SIM/Version_AXI.v:342]
+WARNING: [Synth 8-6014] Unused sequential element slv_reg29_reg was removed.  [C:/tmy/0_elta/SPI/SIM/Version_AXI.v:343]
+WARNING: [Synth 8-6014] Unused sequential element slv_reg30_reg was removed.  [C:/tmy/0_elta/SPI/SIM/Version_AXI.v:344]
+WARNING: [Synth 8-6014] Unused sequential element slv_reg31_reg was removed.  [C:/tmy/0_elta/SPI/SIM/Version_AXI.v:345]
+WARNING: [Synth 8-7129] Port S_AXI_AWADDR[6] in module Version_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWADDR[5] in module Version_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWADDR[4] in module Version_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWADDR[3] in module Version_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWADDR[2] in module Version_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWADDR[1] in module Version_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWADDR[0] in module Version_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWPROT[2] in module Version_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWPROT[1] in module Version_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWPROT[0] in module Version_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_WDATA[31] in module Version_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_WDATA[30] in module Version_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_WDATA[29] in module Version_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_WDATA[28] in module Version_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_WDATA[27] in module Version_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_WDATA[26] in module Version_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_WDATA[25] in module Version_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_WDATA[24] in module Version_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_WDATA[23] in module Version_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_WDATA[22] in module Version_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_WDATA[21] in module Version_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_WDATA[20] in module Version_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_WDATA[19] in module Version_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_WDATA[18] in module Version_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_WDATA[17] in module Version_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_WDATA[16] in module Version_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_WDATA[15] in module Version_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_WDATA[14] in module Version_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_WDATA[13] in module Version_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_WDATA[12] in module Version_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_WDATA[11] in module Version_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_WDATA[10] in module Version_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_WDATA[9] in module Version_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_WDATA[8] in module Version_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_WDATA[7] in module Version_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_WDATA[6] in module Version_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_WDATA[5] in module Version_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_WDATA[4] in module Version_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_WDATA[3] in module Version_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_WDATA[2] in module Version_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_WDATA[1] in module Version_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_WDATA[0] in module Version_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_WSTRB[3] in module Version_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_WSTRB[2] in module Version_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_WSTRB[1] in module Version_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_WSTRB[0] in module Version_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_ARPROT[2] in module Version_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_ARPROT[1] in module Version_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_ARPROT[0] in module Version_AXI is either unconnected or has no load
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 1963.730 ; gain = 292.465
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 1963.730 ; gain = 292.465
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 1963.730 ; gain = 292.465
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.005 . Memory (MB): peak = 1963.730 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1985.492 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.030 . Memory (MB): peak = 2003.570 ; gain = 17.898
+INFO: [Designutils 20-5008] Incremental synthesis strategy off
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:17 ; elapsed = 00:00:17 . Memory (MB): peak = 2003.570 ; gain = 332.305
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xck26-sfvc784-2LV-c
+INFO: [Synth 8-6742] Reading net delay rules and data
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:17 ; elapsed = 00:00:17 . Memory (MB): peak = 2003.570 ; gain = 332.305
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:17 ; elapsed = 00:00:17 . Memory (MB): peak = 2003.570 ; gain = 332.305
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'state_write_reg' in module 'Version_AXI'
+INFO: [Synth 8-802] inferred FSM for state register 'state_read_reg' in module 'Version_AXI'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    Idle |                               00 |                               00
+                   Waddr |                               01 |                               10
+                   Wdata |                               10 |                               11
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_write_reg' using encoding 'sequential' in module 'Version_AXI'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    Idle |                               00 |                               00
+                   Raddr |                               01 |                               10
+                   Rdata |                               10 |                               11
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_read_reg' using encoding 'sequential' in module 'Version_AXI'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:17 ; elapsed = 00:00:17 . Memory (MB): peak = 2003.570 ; gain = 332.305
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Registers : 
+	                7 Bit    Registers := 1     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 5     
++---Muxes : 
+	   3 Input    2 Bit        Muxes := 2     
+	   2 Input    2 Bit        Muxes := 5     
+	   2 Input    1 Bit        Muxes := 2     
+	   3 Input    1 Bit        Muxes := 12    
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 1248 (col length:96)
+BRAMs: 288 (col length: RAMB18 96 RAMB36 48)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+WARNING: [Synth 8-7129] Port s_axi_awaddr[6] in module spi_tb_Version_0_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_awaddr[5] in module spi_tb_Version_0_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_awaddr[4] in module spi_tb_Version_0_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_awaddr[3] in module spi_tb_Version_0_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_awaddr[2] in module spi_tb_Version_0_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_awaddr[1] in module spi_tb_Version_0_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_awaddr[0] in module spi_tb_Version_0_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_awprot[2] in module spi_tb_Version_0_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_awprot[1] in module spi_tb_Version_0_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_awprot[0] in module spi_tb_Version_0_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_wdata[31] in module spi_tb_Version_0_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_wdata[30] in module spi_tb_Version_0_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_wdata[29] in module spi_tb_Version_0_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_wdata[28] in module spi_tb_Version_0_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_wdata[27] in module spi_tb_Version_0_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_wdata[26] in module spi_tb_Version_0_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_wdata[25] in module spi_tb_Version_0_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_wdata[24] in module spi_tb_Version_0_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_wdata[23] in module spi_tb_Version_0_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_wdata[22] in module spi_tb_Version_0_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_wdata[21] in module spi_tb_Version_0_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_wdata[20] in module spi_tb_Version_0_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_wdata[19] in module spi_tb_Version_0_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_wdata[18] in module spi_tb_Version_0_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_wdata[17] in module spi_tb_Version_0_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_wdata[16] in module spi_tb_Version_0_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_wdata[15] in module spi_tb_Version_0_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_wdata[14] in module spi_tb_Version_0_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_wdata[13] in module spi_tb_Version_0_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_wdata[12] in module spi_tb_Version_0_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_wdata[11] in module spi_tb_Version_0_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_wdata[10] in module spi_tb_Version_0_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_wdata[9] in module spi_tb_Version_0_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_wdata[8] in module spi_tb_Version_0_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_wdata[7] in module spi_tb_Version_0_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_wdata[6] in module spi_tb_Version_0_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_wdata[5] in module spi_tb_Version_0_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_wdata[4] in module spi_tb_Version_0_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_wdata[3] in module spi_tb_Version_0_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_wdata[2] in module spi_tb_Version_0_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_wdata[1] in module spi_tb_Version_0_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_wdata[0] in module spi_tb_Version_0_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_wstrb[3] in module spi_tb_Version_0_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_wstrb[2] in module spi_tb_Version_0_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_wstrb[1] in module spi_tb_Version_0_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_wstrb[0] in module spi_tb_Version_0_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_arprot[2] in module spi_tb_Version_0_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_arprot[1] in module spi_tb_Version_0_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_arprot[0] in module spi_tb_Version_0_0 is either unconnected or has no load
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:19 ; elapsed = 00:00:20 . Memory (MB): peak = 2003.570 ; gain = 332.305
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:31 ; elapsed = 00:00:32 . Memory (MB): peak = 2692.629 ; gain = 1021.363
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:31 ; elapsed = 00:00:32 . Memory (MB): peak = 2692.629 ; gain = 1021.363
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:31 ; elapsed = 00:00:32 . Memory (MB): peak = 2702.715 ; gain = 1031.449
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+INFO: [Synth 8-3295] tying undriven pin inst/Version_AXI_inst/USR_ACCESSE2_reg_inferred:in0[31] to constant 0
+INFO: [Synth 8-3295] tying undriven pin inst/Version_AXI_inst/USR_ACCESSE2_reg_inferred:in0[30] to constant 0
+INFO: [Synth 8-3295] tying undriven pin inst/Version_AXI_inst/USR_ACCESSE2_reg_inferred:in0[29] to constant 0
+INFO: [Synth 8-3295] tying undriven pin inst/Version_AXI_inst/USR_ACCESSE2_reg_inferred:in0[28] to constant 0
+INFO: [Synth 8-3295] tying undriven pin inst/Version_AXI_inst/USR_ACCESSE2_reg_inferred:in0[27] to constant 0
+INFO: [Synth 8-3295] tying undriven pin inst/Version_AXI_inst/USR_ACCESSE2_reg_inferred:in0[26] to constant 0
+INFO: [Synth 8-3295] tying undriven pin inst/Version_AXI_inst/USR_ACCESSE2_reg_inferred:in0[25] to constant 0
+INFO: [Synth 8-3295] tying undriven pin inst/Version_AXI_inst/USR_ACCESSE2_reg_inferred:in0[24] to constant 0
+INFO: [Synth 8-3295] tying undriven pin inst/Version_AXI_inst/USR_ACCESSE2_reg_inferred:in0[23] to constant 0
+INFO: [Synth 8-3295] tying undriven pin inst/Version_AXI_inst/USR_ACCESSE2_reg_inferred:in0[22] to constant 0
+INFO: [Synth 8-3295] tying undriven pin inst/Version_AXI_inst/USR_ACCESSE2_reg_inferred:in0[21] to constant 0
+INFO: [Synth 8-3295] tying undriven pin inst/Version_AXI_inst/USR_ACCESSE2_reg_inferred:in0[20] to constant 0
+INFO: [Synth 8-3295] tying undriven pin inst/Version_AXI_inst/USR_ACCESSE2_reg_inferred:in0[19] to constant 0
+INFO: [Synth 8-3295] tying undriven pin inst/Version_AXI_inst/USR_ACCESSE2_reg_inferred:in0[18] to constant 0
+INFO: [Synth 8-3295] tying undriven pin inst/Version_AXI_inst/USR_ACCESSE2_reg_inferred:in0[17] to constant 0
+INFO: [Synth 8-3295] tying undriven pin inst/Version_AXI_inst/USR_ACCESSE2_reg_inferred:in0[16] to constant 0
+INFO: [Synth 8-3295] tying undriven pin inst/Version_AXI_inst/USR_ACCESSE2_reg_inferred:in0[15] to constant 0
+INFO: [Synth 8-3295] tying undriven pin inst/Version_AXI_inst/USR_ACCESSE2_reg_inferred:in0[14] to constant 0
+INFO: [Synth 8-3295] tying undriven pin inst/Version_AXI_inst/USR_ACCESSE2_reg_inferred:in0[13] to constant 0
+INFO: [Synth 8-3295] tying undriven pin inst/Version_AXI_inst/USR_ACCESSE2_reg_inferred:in0[12] to constant 0
+INFO: [Synth 8-3295] tying undriven pin inst/Version_AXI_inst/USR_ACCESSE2_reg_inferred:in0[11] to constant 0
+INFO: [Synth 8-3295] tying undriven pin inst/Version_AXI_inst/USR_ACCESSE2_reg_inferred:in0[10] to constant 0
+INFO: [Synth 8-3295] tying undriven pin inst/Version_AXI_inst/USR_ACCESSE2_reg_inferred:in0[9] to constant 0
+INFO: [Synth 8-3295] tying undriven pin inst/Version_AXI_inst/USR_ACCESSE2_reg_inferred:in0[8] to constant 0
+INFO: [Synth 8-3295] tying undriven pin inst/Version_AXI_inst/USR_ACCESSE2_reg_inferred:in0[7] to constant 0
+INFO: [Synth 8-3295] tying undriven pin inst/Version_AXI_inst/USR_ACCESSE2_reg_inferred:in0[6] to constant 0
+INFO: [Synth 8-3295] tying undriven pin inst/Version_AXI_inst/USR_ACCESSE2_reg_inferred:in0[5] to constant 0
+INFO: [Synth 8-3295] tying undriven pin inst/Version_AXI_inst/USR_ACCESSE2_reg_inferred:in0[4] to constant 0
+INFO: [Synth 8-3295] tying undriven pin inst/Version_AXI_inst/USR_ACCESSE2_reg_inferred:in0[3] to constant 0
+INFO: [Synth 8-3295] tying undriven pin inst/Version_AXI_inst/USR_ACCESSE2_reg_inferred:in0[2] to constant 0
+INFO: [Synth 8-3295] tying undriven pin inst/Version_AXI_inst/USR_ACCESSE2_reg_inferred:in0[1] to constant 0
+INFO: [Synth 8-3295] tying undriven pin inst/Version_AXI_inst/USR_ACCESSE2_reg_inferred:in0[0] to constant 0
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:35 ; elapsed = 00:00:36 . Memory (MB): peak = 2918.992 ; gain = 1247.727
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:35 ; elapsed = 00:00:36 . Memory (MB): peak = 2918.992 ; gain = 1247.727
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:35 ; elapsed = 00:00:36 . Memory (MB): peak = 2918.992 ; gain = 1247.727
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:35 ; elapsed = 00:00:36 . Memory (MB): peak = 2918.992 ; gain = 1247.727
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:35 ; elapsed = 00:00:36 . Memory (MB): peak = 2918.992 ; gain = 1247.727
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:35 ; elapsed = 00:00:36 . Memory (MB): peak = 2918.992 ; gain = 1247.727
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------------+------+
+|      |Cell         |Count |
++------+-------------+------+
+|1     |LUT1         |    33|
+|2     |LUT2         |     3|
+|3     |LUT3         |     1|
+|4     |LUT5         |     4|
+|5     |LUT6         |    37|
+|6     |USR_ACCESSE2 |     1|
+|7     |FDRE         |    14|
++------+-------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:35 ; elapsed = 00:00:36 . Memory (MB): peak = 2918.992 ; gain = 1247.727
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 50 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:26 ; elapsed = 00:00:35 . Memory (MB): peak = 2918.992 ; gain = 1207.887
+Synthesis Optimization Complete : Time (s): cpu = 00:00:36 ; elapsed = 00:00:37 . Memory (MB): peak = 2918.992 ; gain = 1247.727
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 2918.992 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 2918.992 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Synth Design complete | Checksum: 9bdbde5e
+INFO: [Common 17-83] Releasing license: Synthesis
+65 Infos, 132 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:43 ; elapsed = 00:00:47 . Memory (MB): peak = 2918.992 ; gain = 2240.047
+INFO: [Coretcl 2-1174] Renamed 2 cell refs.
+Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 2918.992 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'C:/tmy/0_elta/SPI/Project_v242/project.runs/spi_tb_Version_0_0_synth_1/spi_tb_Version_0_0.dcp' has been generated.
+INFO: [Vivado 12-24828] Executing command : report_utilization -file spi_tb_Version_0_0_utilization_synth.rpt -pb spi_tb_Version_0_0_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Thu Sep 11 15:58:54 2025...
